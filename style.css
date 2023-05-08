@@ -1,0 +1,13 @@
+.table {
+  display: flex;
+}
+#column01 #column02 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+img {
+  height: 100px;
+  width: 70px;
+}
