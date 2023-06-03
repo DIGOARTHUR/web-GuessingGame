@@ -29,22 +29,36 @@ const column02 = document.querySelector("#column02");
 const column03 = document.querySelector("#column03");
 var i = 0;
 var positionTop = 0;                  //  set your counter to 1
-var positionTop2 = 0;
-var positionTop3 = 0;
+var alternaFila = 1
 
 function myLoop(array) {
 
     //  create a loop function
     setTimeout(function () {   //  call a 3s setTimeout when the loop is called
-        if (i < 7) {
-            1
-            column01.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop += 50}px" src="./cards/${array[i]}"/>`
-        }
-        if (i >= 7 && i < 14) {
-            column02.innerHTML += `<img class='imgCard2' style="position: absolute; top:${positionTop2 += 50}px" src="./cards/${array[i]}"/>`
-        }
-        if (i >= 14 && i < 21) {
-            column03.innerHTML += `<img class='imgCard3' style="position: absolute; top:${positionTop3 += 50}px" src="./cards/${array[i]}"/>`
+        if (i < 21) {
+            if (alternaFila == 1) {
+                console.log(alternaFila)
+                column01.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="./cards/${array[i]}"/>`
+                alternaFila += 1;
+
+            } else {
+                if (alternaFila == 2) {
+                    column02.innerHTML += `<img class='imgCard2' style="position: absolute; top:${positionTop}px" src="./cards/${array[i]}"/>`
+                    alternaFila += 1;
+                } else {
+                    if (alternaFila == 3) {
+                        column03.innerHTML += `<img class='imgCard3' style="position: absolute; top:${positionTop}px" src="./cards/${array[i]}"/>`
+                        alternaFila = 1
+                        positionTop += 50
+                    }
+                }
+            }
+
+
+
+
+
+
         }
 
         i++;                    //  increment the counter
@@ -77,8 +91,14 @@ const file1 = [20, 17, 14, 11, 8, 5, 2, 18, 15, 12, 9, 6, 3, 0, 19, 16, 13, 10, 
 const file2 = [20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1, 18, 15, 12, 9, 6, 3, 0]
 
 const file3 = [18, 15, 12, 9, 6, 3, 0, 20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1,]
+
+
+var contador = 0;
 function myFunction(op) {
 
+    if (contador == 3) {
+        console.log(deckCard[10])
+    }
     console.log(op)
     switch (op) {
         case 1: for (let index in deckCard) {
@@ -92,7 +112,7 @@ function myFunction(op) {
 
             clearTable()
             result()
-
+            contador++;
             break
 
         case 2: for (let index in deckCard) {
@@ -104,6 +124,7 @@ function myFunction(op) {
             newDeckCard = []
             clearTable()
             result()
+            contador++;
             break
         case 3: for (let index in deckCard) {
 
@@ -115,7 +136,7 @@ function myFunction(op) {
             newDeckCard = []
 
             clearTable()
-
+            contador++;
             result();
             break
     }
