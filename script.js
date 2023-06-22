@@ -23,57 +23,47 @@ let deckCard = [
 ];
 
 
-let cardHTML = "";
-const column01 = document.querySelector("#column01");
-const column02 = document.querySelector("#column02");
-const column03 = document.querySelector("#column03");
-var i = 0;
-var positionTop = 0;                  //  set your counter to 1
-var alternaFila = 1
+var column01 = document.querySelector("#column01");
+var column02 = document.querySelector("#column02");
+var column03 = document.querySelector("#column03");
+var countCards = 0;
+var positionTop = 0;
+var toggleColumn = 1
 
-function myLoop(array) {
+function toPutCardsOnTheTable(array) {
 
-    //  create a loop function
-    setTimeout(function () {   //  call a 3s setTimeout when the loop is called
-        if (i < 21) {
-            if (alternaFila == 1) {
-                console.log(alternaFila)
-                column01.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="./cards/${array[i]}"/>`
-                alternaFila += 1;
-
-            } else {
-                if (alternaFila == 2) {
-                    column02.innerHTML += `<img class='imgCard2' style="position: absolute; top:${positionTop}px" src="./cards/${array[i]}"/>`
-                    alternaFila += 1;
-                } else {
-                    if (alternaFila == 3) {
-                        column03.innerHTML += `<img class='imgCard3' style="position: absolute; top:${positionTop}px" src="./cards/${array[i]}"/>`
-                        alternaFila = 1
-                        positionTop += 50
-                    }
-                }
+    setTimeout(() => {
+        if (countCards < 21) {
+            switch (toggleColumn) {
+                case 1:
+                    console.log(toggleColumn)
+                    column01.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="./cards/${array[countCards]}"/>`
+                    toggleColumn += 1;
+                    break;
+                case 2:
+                    column02.innerHTML += `<img class='imgCard2' style="position: absolute; top:${positionTop}px" src="./cards/${array[countCards]}"/>`
+                    toggleColumn += 1;
+                    break;
+                case 3:
+                    column03.innerHTML += `<img class='imgCard3' style="position: absolute; top:${positionTop}px" src="./cards/${array[countCards]}"/>`
+                    toggleColumn = 1
+                    positionTop += 50
+                    break;
             }
-
-
-
-
-
-
         }
-
-        i++;                    //  increment the counter
-        if (i < deckCard.length) {           //  if the counter < 10, call the loop function
-            myLoop(array);             //  ..  again which will trigger another 
+        countCards++;
+        if (countCards < deckCard.length) {
+            toPutCardsOnTheTable(array);
         } else {
-            i = 0
-            positionTop = 0;                  //  set your counter to 1
-            positionTop2 = 0;
-            positionTop3 = 0;
-        }                     //  ..  setTimeout()
-    }, 200)
+            countCards = 0
+            positionTop = 0;
+        }
+    }, 20)
 
 
 }
+
+
 
 let cont = 0
 
@@ -84,7 +74,7 @@ function result() {
 }
 
 
-myLoop(deckCard);
+toPutCardsOnTheTable(deckCard);
 let newDeckCard = []
 const file1 = [20, 17, 14, 11, 8, 5, 2, 18, 15, 12, 9, 6, 3, 0, 19, 16, 13, 10, 7, 4, 1]
 
@@ -165,7 +155,7 @@ function clearTable() {
         column03.removeChild(child)
 
     }
-    myLoop(deckCard);
+    toPutCardsOnTheTable(deckCard);
 }
 
 
