@@ -1,25 +1,56 @@
 let deckCard = [
-    "club_2.svg",
-    "club_5.svg",
-    "club_A.svg",
-    "club_J.svg",
-    "club_K.svg",
-    "diamond_3.svg",
-    "diamond_6.svg",
-    "diamond_7.svg",
-    "diamond_A.svg",
-    "diamond_J.svg",
-    "diamond_K.svg",
-    "diamond_Q.svg",
-    "heart_4.svg",
-    "heart_6.svg",
-    "heart_10.svg",
-    "heart_A.svg",
-    "heart_Q.svg",
-    "spade_2.svg",
-    "spade_5.svg",
-    "spade_8.svg",
-    "spade_A.svg",
+"10_of_clubs.svg",
+"10_of_diamonds.svg",
+"10_of_hearts.svg",
+"10_of_spades.svg",
+"2_of_clubs.svg",
+"2_of_diamonds.svg",
+"2_of_hearts.svg",
+"2_of_spades.svg",
+"3_of_clubs.svg",
+"3_of_diamonds.svg",
+"3_of_hearts.svg",
+"3_of_spades.svg",
+"4_of_clubs.svg",
+"4_of_diamonds.svg",
+"4_of_hearts.svg",
+"4_of_spades.svg",
+"5_of_clubs.svg",
+"5_of_diamonds.svg",
+"5_of_hearts.svg",
+"5_of_spades.svg",
+"6_of_clubs.svg",
+"6_of_diamonds.svg",
+"6_of_hearts.svg",
+"6_of_spades.svg",
+"7_of_clubs.svg",
+"7_of_diamonds.svg",
+"7_of_hearts.svg",
+"7_of_spades.svg",
+"8_of_clubs.svg",
+"8_of_diamonds.svg",
+"8_of_hearts.svg",
+"8_of_spades.svg",
+"9_of_clubs.svg",
+"9_of_diamonds.svg",
+"9_of_hearts.svg",
+"9_of_spades.svg",
+"ace_of_clubs.svg",
+"ace_of_diamonds.svg",
+"ace_of_hearts.svg",
+"ace_of_spades.svg",
+"jack_of_clubs.svg",
+"jack_of_diamonds.svg",
+"jack_of_hearts.svg",
+"jack_of_spades.svg",
+"king_of_clubs.svg",
+"king_of_diamonds.svg",
+"king_of_hearts.svg",
+"king_of_spades.svg",
+"queen_of_clubs.svg",
+"queen_of_diamonds.svg",
+"queen_of_hearts.svg",
+"queen_of_spades.svg",
 ];
 
 
@@ -32,9 +63,7 @@ var toggleColumn = 1;
 var countShuffle = 0;
 
 
-
 toPutCardsOnTheTable(deckCard);
-
 
 function toPutCardsOnTheTable(deckCard) {
 
@@ -105,8 +134,7 @@ function shuffleCards(column) {
         break;
     }
 
-    
-       
+      
     if(countShuffle<3){
         console.log(countShuffle)
         deckCard = newDeckCard
