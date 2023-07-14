@@ -1,56 +1,56 @@
 let deckCard = [
-    "10_of_clubs.svg",
-    "10_of_diamonds.svg",
-    "10_of_hearts.svg",
-    "10_of_spades.svg",
-    "2_of_clubs.svg",
-    "2_of_diamonds.svg",
-    "2_of_hearts.svg",
-    "2_of_spades.svg",
-    "3_of_clubs.svg",
-    "3_of_diamonds.svg",
-    "3_of_hearts.svg",
-    "3_of_spades.svg",
-    "4_of_clubs.svg",
-    "4_of_diamonds.svg",
-    "4_of_hearts.svg",
-    "4_of_spades.svg",
-    "5_of_clubs.svg",
-    "5_of_diamonds.svg",
-    "5_of_hearts.svg",
-    "5_of_spades.svg",
-    "6_of_clubs.svg",
-    "6_of_diamonds.svg",
-    "6_of_hearts.svg",
-    "6_of_spades.svg",
-    "7_of_clubs.svg",
-    "7_of_diamonds.svg",
-    "7_of_hearts.svg",
-    "7_of_spades.svg",
-    "8_of_clubs.svg",
-    "8_of_diamonds.svg",
-    "8_of_hearts.svg",
-    "8_of_spades.svg",
-    "9_of_clubs.svg",
-    "9_of_diamonds.svg",
-    "9_of_hearts.svg",
-    "9_of_spades.svg",
-    "ace_of_clubs.svg",
-    "ace_of_diamonds.svg",
-    "ace_of_hearts.svg",
-    "ace_of_spades.svg",
-    "jack_of_clubs.svg",
-    "jack_of_diamonds.svg",
-    "jack_of_hearts.svg",
-    "jack_of_spades.svg",
-    "king_of_clubs.svg",
-    "king_of_diamonds.svg",
-    "king_of_hearts.svg",
-    "king_of_spades.svg",
-    "queen_of_clubs.svg",
-    "queen_of_diamonds.svg",
-    "queen_of_hearts.svg",
-    "queen_of_spades.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/English_pattern_10_of_clubs.svg/800px-English_pattern_10_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/English_pattern_10_of_diamonds.svg/800px-English_pattern_10_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/English_pattern_10_of_hearts.svg/800px-English_pattern_10_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/English_pattern_10_of_spades.svg/800px-English_pattern_10_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/English_pattern_2_of_clubs.svg/800px-English_pattern_2_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/English_pattern_2_of_diamonds.svg/800px-English_pattern_2_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/English_pattern_2_of_hearts.svg/800px-English_pattern_2_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/English_pattern_2_of_spades.svg/800px-English_pattern_2_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/English_pattern_3_of_clubs.svg/800px-English_pattern_3_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/English_pattern_3_of_diamonds.svg/800px-English_pattern_3_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/English_pattern_3_of_hearts.svg/800px-English_pattern_3_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/English_pattern_3_of_spades.svg/800px-English_pattern_3_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/English_pattern_4_of_clubs.svg/800px-English_pattern_4_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/English_pattern_4_of_diamonds.svg/800px-English_pattern_4_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/English_pattern_4_of_hearts.svg/800px-English_pattern_4_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/English_pattern_4_of_spades.svg/800px-English_pattern_4_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/English_pattern_5_of_clubs.svg/800px-English_pattern_5_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/English_pattern_5_of_diamonds.svg/800px-English_pattern_5_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/English_pattern_5_of_hearts.svg/800px-English_pattern_5_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/English_pattern_5_of_spades.svg/800px-English_pattern_5_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/English_pattern_6_of_clubs.svg/800px-English_pattern_6_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/English_pattern_6_of_diamonds.svg/800px-English_pattern_6_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/English_pattern_6_of_hearts.svg/800px-English_pattern_6_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/English_pattern_6_of_spades.svg/800px-English_pattern_6_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/English_pattern_7_of_clubs.svg/800px-English_pattern_7_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/English_pattern_7_of_diamonds.svg/800px-English_pattern_7_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/English_pattern_7_of_hearts.svg/800px-English_pattern_7_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/English_pattern_7_of_spades.svg/800px-English_pattern_7_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/English_pattern_8_of_clubs.svg/800px-English_pattern_8_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/English_pattern_8_of_diamonds.svg/800px-English_pattern_8_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/English_pattern_8_of_hearts.svg/800px-English_pattern_8_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/English_pattern_8_of_spades.svg/800px-English_pattern_8_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/English_pattern_9_of_clubs.svg/800px-English_pattern_9_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/English_pattern_9_of_diamonds.svg/800px-English_pattern_9_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/English_pattern_9_of_hearts.svg/800px-English_pattern_9_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/English_pattern_9_of_spades.svg/800px-English_pattern_9_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/English_pattern_ace_of_clubs.svg/800px-English_pattern_ace_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/English_pattern_ace_of_diamonds.svg/800px-English_pattern_ace_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/English_pattern_ace_of_hearts.svg/800px-English_pattern_ace_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/English_pattern_ace_of_spades.svg/800px-English_pattern_ace_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/English_pattern_jack_of_clubs.svg/800px-English_pattern_jack_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/English_pattern_jack_of_diamonds.svg/800px-English_pattern_jack_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/English_pattern_jack_of_hearts.svg/800px-English_pattern_jack_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/English_pattern_jack_of_spades.svg/800px-English_pattern_jack_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/English_pattern_king_of_clubs.svg/800px-English_pattern_king_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/English_pattern_king_of_diamonds.svg/800px-English_pattern_king_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/English_pattern_king_of_hearts.svg/800px-English_pattern_king_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/English_pattern_king_of_spades.svg/800px-English_pattern_king_of_spades.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/English_pattern_queen_of_clubs.svg/800px-English_pattern_queen_of_clubs.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/English_pattern_queen_of_diamonds.svg/800px-English_pattern_queen_of_diamonds.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/English_pattern_queen_of_hearts.svg/800px-English_pattern_queen_of_hearts.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/English_pattern_queen_of_spades.svg/800px-English_pattern_queen_of_spades.svg.png",
 ];
 
 
@@ -83,15 +83,15 @@ function toPutCardsOnTheTable(deckCard) {
             switch (toggleColumn) {
                 case 1:
                     console.log(toggleColumn)
-                    $leftColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="./cards/${deckCard[countCards]}"/>`
+                    $leftColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
                     toggleColumn += 1;
                     break;
                 case 2:
-                    $middleColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="./cards/${deckCard[countCards]}"/>`
+                    $middleColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
                     toggleColumn += 1;
                     break;
                 case 3:
-                    $rightColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="./cards/${deckCard[countCards]}"/>`
+                    $rightColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
                     toggleColumn = 1
                     positionTop += 50
                     break;
@@ -125,7 +125,8 @@ function shuffleCards(column) {
     const shuffleForSelect_rightColumn = [18, 15, 12, 9, 6, 3, 0, 20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1,]
     switch (column) {
         case 1: for (let index in deckCard) {
-
+         
+           
             newDeckCard.push(deckCard[shuffleForSelect_leftColumn[index]])
         }
             countShuffle += 1;
@@ -174,7 +175,8 @@ function clearTable() {
 
 function result() {
 
-    console.log(deckCard[10])
+    window.location.href = `https://wa.me/5562992351742?text=${deckCard[10]}`;
+   
 
 }
 
