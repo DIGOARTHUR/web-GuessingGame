@@ -1,15 +1,19 @@
-.table {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 800px;
-}
-#column01 #column02 {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+@media (max-width: 800px) {
+  .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 300px;
+    margin: auto;
+  }
 
-img {
-  height: 100px;
-  width: 70px;
+  .caixas {
+   
+    height: 50vh;
+  }
+
+  img {
+    margin-top: 100px;
+    height: 130px;
+    width: 92px;
+  }
 }
