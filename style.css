@@ -1,19 +1,38 @@
 @media (max-width: 800px) {
+  html, body{
+    height: 100%;
+    margin: 0;
+ }
+  .background{
+    background-color: rgb(40, 105, 40);
+    height: calc(100% - 90px);
+
+   
+    
+  }
   .table {
+    
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 300px;
-    margin: auto;
-  }
-
-  .caixas {
    
-    height: 50vh;
+   
   }
 
-  img {
+
+
+  .imgCard {
     margin-top: 100px;
     height: 130px;
     width: 92px;
+  }
+  .logo_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: rgb(61, 127, 61);
+   width: 100%;
+   height: 90px;
   }
 }
