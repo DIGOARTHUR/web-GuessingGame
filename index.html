@@ -11,10 +11,11 @@
 </head>
 
 <body>
-    <div class="logo_content"> 
-        <img  src="./Logo_GuessingGameWeb.svg" />
+    <div class="logo_content">
+        <img class="logo" src="./Logo_GuessingGameWeb.svg" />
+        <button onclick="switchModal('block')" class="button_CloseModal">x</button>
     </div>
-   
+
     <div class="background">
         <div class="table">
             <div>
@@ -35,6 +36,23 @@
 
                 </div>
             </div>
+        </div>
+    </div>
+    
+
+
+
+    <div class="modal">
+       
+        <div class="content-info">
+            <button onclick="switchModal('none')" class="button_CloseModal">x</button>
+            <p class="description">
+                Esse jogo é de adivinhação. Escolha qualquer carta dentre as 21 que estão sendo mostradas na tela,
+                qualquer carta,
+                e apenas indique a fileira que ela está durante 3 rodadas,
+                logo em seguida a carta poderá ser enviada por Whatsapp.
+                Brinque com amigos e familiares e surpreenda-os.
+            </p>
         </div>
     </div>
 </body>

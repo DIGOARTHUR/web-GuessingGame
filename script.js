@@ -180,3 +180,10 @@ function result() {
 
 }
 
+
+
+
+function switchModal(state){
+    const modal = document.querySelector('.modal')
+    modal.style.display=state
+}
