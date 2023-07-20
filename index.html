@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <div class="logo_content">
-        <img class="logo" src="./Logo_GuessingGameWeb.svg" />
-        <button onclick="switchModal('block')" class="button_CloseModal">x</button>
+    <div class="header">
+        <img class="logo" src="./Group.svg" />
+        <img onclick="switchModal('block')" class="button_CloseModal" class="icon_info" src="./icon_info.svg" />
+
     </div>
 
-    <div class="background">
+    <div class="main_background">
         <div class="table">
             <div>
 
@@ -38,19 +39,37 @@
             </div>
         </div>
     </div>
-    
+    <div class="footer">
+        <div class="github">
+            <img class="icon_github" src="./Vector.svg" />
+            <a>
+                <img class="logo" src="./icon_link.svg" />
+                <span>@digoarthur</span>
+            </a>
+        </div>
+        <div class="linkedin">
+            <img class="icon_linkedin" src="./SVGRepo_iconCarrier.svg" />
+            <a>
+                <img class="logo" src="./icon_link.svg" />
+                <span>@digoarthur</span>
+            </a>
+
+        </div>
+    </div>
 
 
 
     <div class="modal">
-       
+
         <div class="content-info">
+
             <button onclick="switchModal('none')" class="button_CloseModal">x</button>
             <p class="description">
                 Esse jogo é de adivinhação. Escolha qualquer carta dentre as 21 que estão sendo mostradas na tela,
                 qualquer carta,
-                e apenas indique a fileira que ela está durante 3 rodadas,
+                e apenas indique a fileira que ela está durante 3 rodadas.
                 logo em seguida a carta poderá ser enviada por Whatsapp.
+                <br />
                 Brinque com amigos e familiares e surpreenda-os.
             </p>
         </div>

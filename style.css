@@ -14,9 +14,24 @@
     font-family: pressStart2P;
   }
 
-  .background {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(54, 126, 54);
+    padding: 5%;
+    width: 90%;
+    height: 6%;
+  }
+
+  .header .logo {
+    width: 250px;
+  }
+
+
+  .main_background {
     background-color: rgb(40, 105, 40);
-    height: calc(100% - 4% - 50px );
+    height: calc(100% - 4% - 6% - 10%  );
   }
 
   .table {
@@ -33,24 +48,29 @@
 
 
   .imgCard {
-    margin-top: 100px;
+    margin-top: 50px;
     height: 130px;
     width: 92px;
   }
 
-  .logo_content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(54, 126, 54);
-    padding: 5%;
-    width: 90%;
-    height: 50px;
-  }
+.footer{
+  height: 10%;
+  background-color: rgb(54, 126, 54);
+  padding: 5%;
+}
 
-  .logo {
-    width: 250px;
-  }
+.footer .github, .linkedin{
+  display: flex;
+  align-items: flex-end;
+  
+}
+ 
+.footer .icon_github, .icon_linkedin {
+ width: 55px;
+  
+}
+
+
 
   .modal {
     position: fixed;
@@ -70,7 +90,7 @@
     gap: 30px;
     background-color: #d3d3d3e1;
     width: 80%;
-    height: 50%;
+    height: 70%;
     margin: 90px auto 0;
     border-radius: 5px;
     padding: 15px;
@@ -86,7 +106,7 @@
 
   }
 
-  p {
+  .modal p {
     font-size: 16px;
     color: darkgreen;
     font-weight: 250;
