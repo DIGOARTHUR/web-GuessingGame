@@ -175,7 +175,7 @@ function clearTable() {
 
 function result() {
 
-    window.location.href = `https://wa.me/5562992351742?text=${deckCard[10]}`;
+    window.location.href = `https://wa.me/?text=${deckCard[10]}`;
    
 
 }

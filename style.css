@@ -5,7 +5,9 @@
     src: url(font/PressStart2P-Regular.ttf);
   }
 
-
+a{
+  text-decoration:none;
+}
 
   html,
   body {
@@ -54,21 +56,50 @@
   }
 
 .footer{
+  
   height: 10%;
   background-color: rgb(54, 126, 54);
-  padding: 5%;
+  padding: 4%;
+ 
 }
 
-.footer .github, .linkedin{
+.footer .content_footer{
+  height: 100%;
+  margin: auto;
+  width:75%;
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer .madeIn{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.footer .social_network{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
 }
  
-.footer .icon_github, .icon_linkedin {
- width: 55px;
+.footer .social_network .github, .linkedin {
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ gap: 5px;
   
 }
+
+.footer span{
+  font-size: 10px;
+  color: #444444;
+ }
 
 
 
