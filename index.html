@@ -8,6 +8,7 @@
     <title>Guessing Game🪄🎩</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -97,5 +98,10 @@
         </div>
 </body>
 <script src="script.js"></script>
+<script>
+    if(typeof navigator.serviceWorker !== 'undefined'){
+        navigator.serviceWorker.register('pwabuilder-sw.js')
+    }
+</script>
 
 </html>
