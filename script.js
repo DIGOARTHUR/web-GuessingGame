@@ -54,6 +54,8 @@ let deckCard = [
 ];
 
 
+
+
 var $leftColumn = document.querySelector("#leftColumn");
 var $middleColumn = document.querySelector("#middleColumn");
 var $rightColumn = document.querySelector("#rightColumn");
@@ -61,6 +63,16 @@ var countCards = 0;
 var positionTop = 0;
 var toggleColumn = 1;
 var countShuffle = 0;
+
+
+
+
+const putCards_Sound = new Audio();
+putCards_Sound.src ='./depositphotos_410657750-track-sound-of-taking-a-card (mp3cut.net) (3).mp3'
+
+
+const shuffleCards_Sound = new Audio();
+shuffleCards_Sound.src ='./depositphotos_410657540-track-sound-of-shuffling-playing-cards(1) (mp3cut.net).mp3'
 
 startRandomCards(deckCard)
 
@@ -78,20 +90,26 @@ toPutCardsOnTheTable(deckCard);
 
 function toPutCardsOnTheTable(deckCard) {
 
+   
+   
     setTimeout(() => {
         if (countCards < 21) {
+           
             switch (toggleColumn) {
                 case 1:
                     console.log(toggleColumn)
                     $leftColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
+                    
                     toggleColumn += 1;
                     break;
                 case 2:
                     $middleColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
+                   
                     toggleColumn += 1;
                     break;
                 case 3:
                     $rightColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
+                    
                     toggleColumn = 1
                     positionTop += 50
                     break;
@@ -101,10 +119,11 @@ function toPutCardsOnTheTable(deckCard) {
         if (countCards < deckCard.length) {
             toPutCardsOnTheTable(deckCard);
         } else {
+           
             countCards = 0;
             positionTop = 0;
         }
-    }, 20)
+    }, 30)
 
 
 }
@@ -112,6 +131,7 @@ function toPutCardsOnTheTable(deckCard) {
 
 
 function selectColumn(column) {
+    shuffleCards_Sound.play()
     shuffleCards(column)
 
 }
@@ -119,7 +139,7 @@ function selectColumn(column) {
 
 function shuffleCards(column) {
     let newDeckCard = []
-
+   
     const shuffleForSelect_leftColumn = [20, 17, 14, 11, 8, 5, 2, 18, 15, 12, 9, 6, 3, 0, 19, 16, 13, 10, 7, 4, 1]
     const shuffleForSelect_middletColumn = [20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1, 18, 15, 12, 9, 6, 3, 0]
     const shuffleForSelect_rightColumn = [18, 15, 12, 9, 6, 3, 0, 20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1,]
@@ -148,10 +168,14 @@ function shuffleCards(column) {
 
 
     if (countShuffle < 3) {
+       
         console.log(countShuffle)
         deckCard = newDeckCard
         clearTable();
+       
+      
         toPutCardsOnTheTable(deckCard);
+        
     } else {
         deckCard = newDeckCard
         console.log(countShuffle)
@@ -186,4 +210,6 @@ function result() {
 function switchModal(state){
     const modal = document.querySelector('.modal')
     modal.style.display=state
+ 
+   
 }
