@@ -1,0 +1,41 @@
+
+
+
+
+.desktop {
+    display: block;
+    background-color: #43793B;
+    height: 100vh;
+    width: 100%;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #508649;
+    width: 800px;
+    height: 100%;
+    margin: auto;
+}
+
+.main_content .logo{
+    height: 150px;
+}
+
+.main_content .info_content{
+    height: 300px;
+    width: 550px;
+    
+    padding: 25px;
+}
+
+.main_content .description{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

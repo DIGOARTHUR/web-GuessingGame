@@ -5,103 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Guessing Game🪄🎩</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(min-width: 800px)" href="desktop.css" />
     <link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body>
-    <div class="header">
-        <img class="logo" src="./Group.svg" />
-        <img onclick="switchModal('block')" class="button_CloseModal" class="icon_info" src="./icon_info.svg" />
+
+    <div class="mobile">
+        <div class="header">
+            <img class="logo" src="./Group.svg" />
+            <img onclick="switchModal('block')" class="button_CloseModal" class="icon_info" src="./icon_info.svg" />
+
+        </div>
+
+        <div class="main_background">
+            <div class="table">
+                <div>
+
+                    <div onclick="selectColumn(1)" class="" id="leftColumn">
+                    </div>
+                </div>
+
+                <div>
+
+                    <div onclick="selectColumn(2)" class="" id="middleColumn">
+
+                    </div>
+                </div>
+                <div>
+
+                    <div onclick="selectColumn(3)" class="" id="rightColumn">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+            <div class="content_footer">
+                <div class="madeIn">
+                    <span>
+                        Guessing Game®️ <br /><br />
+                        2023
+                    </span>
+                    <span>
+                        @digoarthur
+                    </span>
+
+
+
+                </div>
+                <div class="social_network">
+
+                    <div class="github">
+                        <img class="icon_github" src="./Vector.svg" />
+                        <a href="https://github.com/DIGOARTHUR">
+
+                            <img class="logo" src="./icon_link.svg" />
+                        </a>
+                    </div>
+                    <div class="linkedin">
+                        <img class="icon_linkedin" src="./SVGRepo_iconCarrier.svg" />
+                        <a href="https://www.linkedin.com/in/digoarthur/">
+
+
+                            <img class="logo" src="./icon_link.svg" />
+
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal">
+
+                <div class="content-info">
+
+                    <button onclick="switchModal('none')" class="button_CloseModal">x</button>
+                    <p class="description">
+                        Esse jogo é de adivinhação. Escolha qualquer carta dentre as 21 que estão sendo mostradas na
+                        tela,
+                        qualquer carta,
+                        e apenas indique a fileira que ela está durante 3 rodadas.
+                        logo em seguida a carta poderá ser enviada por Whatsapp.
+                        <br />
+                        Brinque com amigos e familiares e surpreenda-os.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
 
     </div>
-
-    <div class="main_background">
-        <div class="table">
-            <div>
-
-                <div onclick="selectColumn(1)" class="" id="leftColumn">
-                </div>
+    <div class="desktop">
+        <div class="main_content">
+            <img class="logo" src="./Logo_GuessingGameWeb.svg"/>
+            <div class="info_content">
+                <img class="logo_info" src="./icon_info.svg"/>
+                <p class="description">Desculpe, este jogo está disponível apenas para Mobile para uma melhor experiência.</p>
             </div>
-
-            <div>
-
-                <div onclick="selectColumn(2)" class="" id="middleColumn">
-
-                </div>
-            </div>
-            <div>
-
-                <div onclick="selectColumn(3)" class="" id="rightColumn">
-
-                </div>
-            </div>
+            <img class="logo_info" src="./iphone.png"/>
         </div>
     </div>
-    <div class="footer">
-        
-        <div class="content_footer">
-            <div class="madeIn">
-                <span>
-                    Guessing Game®️ <br /><br />
-                    2023 
-                </span>
-                <span>
-                    @digoarthur
-                </span>
-                   
-                
 
-            </div>
-            <div class="social_network">
-
-                <div class="github">
-                    <img class="icon_github" src="./Vector.svg" />
-                    <a href="https://github.com/DIGOARTHUR">
-
-                        <img class="logo" src="./icon_link.svg" />
-                    </a>
-                </div>
-                <div class="linkedin">
-                    <img class="icon_linkedin" src="./SVGRepo_iconCarrier.svg" />
-                    <a href="https://www.linkedin.com/in/digoarthur/">
-
-
-                        <img class="logo" src="./icon_link.svg" />
-
-                    </a>
-
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-
-        <div class="modal">
-
-            <div class="content-info">
-
-                <button onclick="switchModal('none')" class="button_CloseModal">x</button>
-                <p class="description">
-                    Esse jogo é de adivinhação. Escolha qualquer carta dentre as 21 que estão sendo mostradas na tela,
-                    qualquer carta,
-                    e apenas indique a fileira que ela está durante 3 rodadas.
-                    logo em seguida a carta poderá ser enviada por Whatsapp.
-                    <br />
-                    Brinque com amigos e familiares e surpreenda-os.
-                </p>
-            </div>
-        </div>
 </body>
 <script src="script.js"></script>
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
-></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
 
 </html>
