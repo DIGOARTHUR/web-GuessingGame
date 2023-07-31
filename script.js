@@ -59,20 +59,21 @@ let deckCard = [
 var $leftColumn = document.querySelector("#leftColumn");
 var $middleColumn = document.querySelector("#middleColumn");
 var $rightColumn = document.querySelector("#rightColumn");
+var $refreshButton = document.querySelector('.content_refresh_button')
 var countCards = 0;
 var positionTop = 0;
 var toggleColumn = 1;
 var countShuffle = 0;
 
 
-
+$refreshButton.style.display = 'none'
 
 const putCards_Sound = new Audio();
-putCards_Sound.src ='./depositphotos_410657750-track-sound-of-taking-a-card (mp3cut.net) (3).mp3'
+putCards_Sound.src = './depositphotos_410657750-track-sound-of-taking-a-card (mp3cut.net) (3).mp3'
 
 
 const shuffleCards_Sound = new Audio();
-shuffleCards_Sound.src ='./depositphotos_410657540-track-sound-of-shuffling-playing-cards(1) (mp3cut.net).mp3'
+shuffleCards_Sound.src = './depositphotos_410657540-track-sound-of-shuffling-playing-cards(1) (mp3cut.net).mp3'
 
 startRandomCards(deckCard)
 
@@ -90,26 +91,26 @@ toPutCardsOnTheTable(deckCard);
 
 function toPutCardsOnTheTable(deckCard) {
 
-   
-   
+
+
     setTimeout(() => {
         if (countCards < 21) {
-           
+
             switch (toggleColumn) {
                 case 1:
                     console.log(toggleColumn)
                     $leftColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
-                    
+
                     toggleColumn += 1;
                     break;
                 case 2:
                     $middleColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
-                   
+
                     toggleColumn += 1;
                     break;
                 case 3:
                     $rightColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
-                    
+
                     toggleColumn = 1
                     positionTop += 50
                     break;
@@ -119,7 +120,7 @@ function toPutCardsOnTheTable(deckCard) {
         if (countCards < deckCard.length) {
             toPutCardsOnTheTable(deckCard);
         } else {
-           
+
             countCards = 0;
             positionTop = 0;
         }
@@ -139,14 +140,14 @@ function selectColumn(column) {
 
 function shuffleCards(column) {
     let newDeckCard = []
-   
+
     const shuffleForSelect_leftColumn = [20, 17, 14, 11, 8, 5, 2, 18, 15, 12, 9, 6, 3, 0, 19, 16, 13, 10, 7, 4, 1]
     const shuffleForSelect_middletColumn = [20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1, 18, 15, 12, 9, 6, 3, 0]
     const shuffleForSelect_rightColumn = [18, 15, 12, 9, 6, 3, 0, 20, 17, 14, 11, 8, 5, 2, 19, 16, 13, 10, 7, 4, 1,]
     switch (column) {
         case 1: for (let index in deckCard) {
-         
-           
+
+
             newDeckCard.push(deckCard[shuffleForSelect_leftColumn[index]])
         }
             countShuffle += 1;
@@ -168,14 +169,14 @@ function shuffleCards(column) {
 
 
     if (countShuffle < 3) {
-       
+
         console.log(countShuffle)
         deckCard = newDeckCard
         clearTable();
-       
-      
+
+
         toPutCardsOnTheTable(deckCard);
-        
+
     } else {
         deckCard = newDeckCard
         console.log(countShuffle)
@@ -200,29 +201,31 @@ function clearTable() {
 function result() {
 
     window.location.href = `https://wa.me/?text=${deckCard[10]}`;
-   
+    $refreshButton.style.display = 'block'
 
+}
+function refreshPage() {
+    window.location.reload(true);
 }
 
 
 
-
-function switchModal(state){
+function switchModal(state) {
     const modal = document.querySelector('.modal')
-    modal.style.display=state
- 
-   
+    modal.style.display = state
+
+
 }
 
-window.addEventListener('load',()=>{
+window.addEventListener('load', () => {
     registerSW()
 })
 
-async function registerSW(){
-    if('serviceWorker' in navigator){
-        try{
+async function registerSW() {
+    if ('serviceWorker' in navigator) {
+        try {
             await navigator.serviceWorker.register('./sw.js')
-        }catch(e){
+        } catch (e) {
             console.log('SW registration failed')
         }
     }

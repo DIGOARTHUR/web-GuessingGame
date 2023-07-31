@@ -66,6 +66,26 @@
   }
 
 
+  .table .content_refresh_button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:180px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(54, 126, 54);
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-family: pressStart2P;
+    
+  }
+
+  .table .content_refresh_button button img{
+   height: 30px;
+  }
+
+
 
   .imgCard {
     margin-top: 50px;
@@ -165,3 +185,5 @@
   }
 
 }
+
+
