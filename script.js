@@ -72,7 +72,7 @@ $refreshButton.style.display = 'none'
 
 
 const shuffleCards_Sound = new Audio();
-shuffleCards_Sound.src = './track-sound-of-shuffling-playing-cards.mp3'
+shuffleCards_Sound.src = './assets/sound/track-sound-of-shuffling-playing-cards.mp3'
 
 startRandomCards(deckCard)
 

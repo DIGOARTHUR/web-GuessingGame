@@ -20,7 +20,7 @@
 
   @font-face {
     font-family: pressStart2P;
-    src: url(../../font/PressStart2P-Regular.ttf);
+    src: url(./font/PressStart2P-Regular.ttf);
   }
 
   a {
