@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Guessing Game🪄🎩</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="(min-width: 800px)" href="desktop.css" />
+    <link rel="stylesheet" href="../src/styles/reset.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <link rel="stylesheet" media="(min-width: 800px)" href="../src/styles/desktop.css" />
     <link rel="manifest" href="manifest.webmanifest">
 </head>
 
@@ -17,8 +17,8 @@
 
     <div class="mobile">
         <div class="header">
-            <img class="logo" src="./Group.svg" />
-            <img onclick="switchModal('block')" class="button_CloseModal" class="icon_info" src="./icon_info.svg" />
+            <img class="logo" src="./assets/imgs/guessing-game_logo.svg" />
+            <img onclick="switchModal('block')" class="button_CloseModal" class="icon_info" src="./assets/imgs/info_icon.svg" />
 
         </div>
 
@@ -44,9 +44,10 @@
                 </div>
                 <div></div>
                 <div class="content_refresh_button">
-                   
-                    <button onclick="refreshPage()" class="refresh_button">Refresh <img class="icon_github" src="./refresh-square-svgrepo-com.svg" /></button>
-                    
+
+                    <button onclick="refreshPage()" class="refresh_button">Refresh <img class="github_icon"
+                            src="./assets/imgs/refresh_logo.svg" /></button>
+
                 </div>
             </div>
 
@@ -71,18 +72,18 @@
                 <div class="social_network">
 
                     <div class="github">
-                        <img class="icon_github" src="./Vector.svg" />
+                        <img class="icon_github" src="./assets/imgs/github_icon.svg" />
                         <a href="https://github.com/DIGOARTHUR">
 
-                            <img class="logo" src="./icon_link.svg" />
+                            <img class="logo" src="./assets/imgs/link_icon.svg" />
                         </a>
                     </div>
                     <div class="linkedin">
-                        <img class="icon_linkedin" src="./SVGRepo_iconCarrier.svg" />
+                        <img class="icon_linkedin" src="./assets/imgs/linkedin_icon.svg" />
                         <a href="https://www.linkedin.com/in/digoarthur/">
 
 
-                            <img class="logo" src="./icon_link.svg" />
+                            <img class="logo" src="./assets/imgs/link_icon.svg" />
 
                         </a>
 
@@ -115,18 +116,18 @@
     </div>
     <div class="desktop">
         <div class="main_content">
-            <img class="logo" src="./Logo_GuessingGameWeb.svg" />
+            <img class="logo" src="./assets/imgs/guessing-game_logo.svg" />
             <div class="info_content">
-                <img class="logo_info" src="./icon_info.svg" />
+                <img class="logo_info" src="./assets/imgs/info_icon.svg" />
                 <p class="description">Desculpe, este jogo está disponível apenas para Mobile para uma melhor
                     experiência.</p>
             </div>
-            <img class="logo_info" src="./iphone.png" />
+            <img class="logo_info" src="./assets/imgs/iphone_icon.png" />
         </div>
     </div>
 
 </body>
-<script src="script.js"></script>
+<script src="../script.js"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
 
 </html>

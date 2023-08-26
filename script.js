@@ -68,12 +68,11 @@ var countShuffle = 0;
 
 $refreshButton.style.display = 'none'
 
-const putCards_Sound = new Audio();
-putCards_Sound.src = './depositphotos_410657750-track-sound-of-taking-a-card (mp3cut.net) (3).mp3'
+
 
 
 const shuffleCards_Sound = new Audio();
-shuffleCards_Sound.src = './depositphotos_410657540-track-sound-of-shuffling-playing-cards(1) (mp3cut.net).mp3'
+shuffleCards_Sound.src = './track-sound-of-shuffling-playing-cards.mp3'
 
 startRandomCards(deckCard)
 
