@@ -1,4 +1,4 @@
-
+<!--  docs: update Readme   -->
 
 
 <!-- VISUALIZAR NO README VSCODE  CTRL + K  V -->
@@ -27,8 +27,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <!-------------------------------------------------------------------->
  <!------------------------------------BANNER PROJECT----------------->
 <!-------------------------------------- 280 x 1400 ------------------------------>
-# `Banner do Projeto Ex.:`
-![image](https://user-images.githubusercontent.com/59892368/193427906-5f71205f-5e64-4016-bc10-b583bd2c0615.png)
+
 
 
 
@@ -78,17 +77,17 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 </h1>
 
 
-  # `Sumário  Ex.:`
+
 
 <!-------------------------------------------------------------------->
 <!------------------------------------SUMMARY------------------------->
 <!-------------------------------------------------------------------->
 <p align="center">
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-Stacks-"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-por-que--">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#--sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-stacks-"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-por-que--">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>  
 
 
@@ -147,7 +146,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
 
   
-  # `Stacks, Tools, Libs + Descrição breve Ex.:`  
+
   <!-------------------------------------------------------------------->
   <!------------------------------------LIST: STACKS , LIBS & TOOLS------->
   <!-------------------------------------------------------------------->
@@ -160,8 +159,8 @@ https://dev.to/envoy_/150-badges-for-github-pnk
  * [`Manipulação Dom`](https://www.typescriptlang.org/) (Acesso que o javascript tem aos elementos de árvore do HTML5. Ter acesso as divs, por exemplo, para deletar, adicionar elementos, etc.)
  * [`Métodos`](https://www.typescriptlang.org/) 
      * [`Math`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Método que possui funções matemáticas)
-       * [`random`](https://www.w3schools.com/js/js_async.asp) (funcao que gera um número randômico.)
-       * [`floor`](https://www.w3schools.com/js/js_async.asp) (funcao que arredonda o numero sempre para o inteiro menor.)
+       * [`.random()`](https://www.w3schools.com/js/js_async.asp) (Gera um número randômico.)
+       * [`.floor()`](https://www.w3schools.com/js/js_async.asp) (Arredonda o número sempre para o inteiro menor.)
      
 ### Estilização 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
