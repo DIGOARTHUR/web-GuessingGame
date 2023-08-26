@@ -133,14 +133,11 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
 
 
-## DESKTOP
 
 
 
   
-  |                               Infomation                               |
-| :-------------------------------------------------------------------: |
-|   ![image](https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257311329-02c44e41-68a2-4955-87be-3428715fd39e.png)|
+
 
   
 
