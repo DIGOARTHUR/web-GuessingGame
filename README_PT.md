@@ -22,13 +22,6 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 # color=yellow - Define a cor da bag vide <https://shields.io>
 # logoColor=white - Define a cor do icone
 -->
-
-
-<!-------------------------------------------------------------------->
- <!------------------------------------BANNER PROJECT----------------->
-<!-------------------------------------- 280 x 1400 ------------------------------>
-
-
 <!-------------------------------------------------------------------->
 <!------------------------------------ LANGUAGE BUTTONS-->
 <!-------------------------------------------------------------------->
@@ -44,7 +37,40 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 </div>
 
 
+<!-------------------------------------------------------------------->
+ <!------------------------------------BANNER PROJECT----------------->
+<!-------------------------------------- 280 x 1400 ------------------------------>
 
+
+<p align="center">
+
+   <img  height="150" alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257309670-873637f7-9191-43f4-b7d3-d5f8a2842342.svg" />
+  <br>
+  <i>Surpreenda seus amigos e familiares adivinhando a carta que eles estão pensando em apenas 3 rodadas. 
+   <br>
+   Mágia de cartas agora na sua tela.</i>
+  <br>
+
+
+
+<p align="center"> 
+ <img  height="150" alt="guessingGame" title="guessingGame" src="https://github.com/DIGOARTHUR/web-GuessingGame/assets/59892368/ff499031-0095-4ce1-a44b-553b08562901" />
+</p>
+</p>
+
+---
+<!-------------------------------------------------------------------->
+<!------------------------------------SUMMARY------------------------->
+<!-------------------------------------------------------------------->
+<p align="center">
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#--sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-stacks-"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-por-que--">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>  
+
+---
 <!-------------------------------------------------------------------->
  <!------------------------------------BADGES PROJECT  ---------------->
  <!-------------------------------------------------------------------->
@@ -78,30 +104,11 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
   
 <hr>
-  <!-------------------------------------------------------------------->
-  <!------------------------------------PROJECT ICON-------------------->
-  <!-------------------------------------------------------------------->
-  
-
-
-
-<h1 align="center">
-  <img width="329" height="80" alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257309670-873637f7-9191-43f4-b7d3-d5f8a2842342.svg" />
-</h1>
 
 
 
 
-<!-------------------------------------------------------------------->
-<!------------------------------------SUMMARY------------------------->
-<!-------------------------------------------------------------------->
-<p align="center">
-  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#--sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-stacks-"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/web-GuessingGame/tree/main#-por-que--">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>  
+
 
 
   
