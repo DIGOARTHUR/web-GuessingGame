@@ -48,7 +48,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
   <br>
   <i>Surpreenda seus amigos e familiares adivinhando a carta que eles estão pensando em apenas 3 rodadas. 
    <br>
-   Mágia de cartas agora na sua tela.</i>
+   Magia de cartas agora na sua tela.</i>
   <br>
 
 
