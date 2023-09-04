@@ -142,18 +142,13 @@ About application
 
 ## MOBILE
 
+<div>
+   
+<img  alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/263471748-5c8cd99d-5d6b-4e37-990e-b77ed86a3b66.png" />
+   
+<img  alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/263471746-fda2e50f-821d-4cce-a33e-6be07ce76728.png" />
 
-
-
-|               About                                            |
-| :-------------------------------------------------------------------: |
-|   ![2-removebg-preview (1)](https://github.com/DIGOARTHUR/web-GuessingGame/assets/59892368/5c8cd99d-5d6b-4e37-990e-b77ed86a3b66)|
-
-|              Play Game                                            |
-| :-------------------------------------------------------------------: |
-|  ![1-removebg-preview](https://github.com/DIGOARTHUR/web-GuessingGame/assets/59892368/fda2e50f-821d-4cce-a33e-6be07ce76728)|
-
-
+<div >
 
 
 
@@ -177,15 +172,15 @@ About application
   
 ### Language
  <a href="https://www.typescriptlang.org/"> ![Alt ou título da imagem](https://img.shields.io/badge/-Javascript-/?logo=TypeScript&logoColor=white&color=yellow)<a/>
- * [`Manipulação Dom`](https://www.typescriptlang.org/) (Access that javascript has to HTML5 tree elements. Having access to divs, for example, to delete, add elements, etc.)
- * [`Métodos`](https://www.typescriptlang.org/) 
+ * [`DOM manipulation`](https://www.typescriptlang.org/) (Access that javascript has to HTML5 tree elements. Having access to divs, for example, to delete, add elements, etc.)
+ * [`Methods`](https://www.typescriptlang.org/) 
      * [`Math`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Method that has mathematical functions)
        * [`.random()`](https://www.w3schools.com/js/js_async.asp) (Generates a random number.)
        * [`.floor()`](https://www.w3schools.com/js/js_async.asp) (Always round the number to the smallest integer.)
      
 ### Style
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
-  * [`Recusos básicos`](https://chakra-ui.com/docs/styled-system/style-props) (display (Flex e Grid), flex-direction, height, width, border-radius... )
+  * [`Basic features`](https://chakra-ui.com/docs/styled-system/style-props) (display (Flex e Grid), flex-direction, height, width, border-radius... )
 
   
 ### Markup Language
