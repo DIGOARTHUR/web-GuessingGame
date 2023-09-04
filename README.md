@@ -30,7 +30,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
     <img  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257623321-95c81f57-b751-4956-b0ab-7a804ae44506.svg" alt="language_USA" border="0">
 <a/>
 <br/>
-<a href="https://github.com/DIGOARTHUR/web-GuessingGame/blob/main/README.md">
+<a href="https://github.com/DIGOARTHUR/web-GuessingGame/blob/main/README_PT.md">
 <img  alt="language_Brazil"  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/258252924-3c572826-3b6d-46da-b5d0-dde3879748c5.svg">
 <a/>
 
