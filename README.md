@@ -243,7 +243,7 @@ git remote -v
 
 
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Why?  <!---write here : motivation that led to created ; why did you do this program?   -->
-This project was already reproduced in other languages ​​when I was at University: [console-guessingGame](https://github.com/DIGOARTHUR/Console-GuessingGame) and [gui-guessingGame](https://github.com /DIGOARTHUR/GUI-GuessingGame).
+This project was already reproduced in other languages ​​when I was at University: [console-guessingGame](https://github.com/DIGOARTHUR/Console-GuessingGame) and [gui-guessingGame](https://github.com/DIGOARTHUR/GUI-GuessingGame).
  It is a great satisfaction to be able to reproduce it with the tool that I currently work with and specialize in. I am grateful that programming provides this feeling of evolution and creation.
 
  ---
