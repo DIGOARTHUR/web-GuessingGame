@@ -143,13 +143,13 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
 
 
-|               About                                            |
-| :-------------------------------------------------------------------: |
-|   ![2-removebg-preview (1)](https://github.com/DIGOARTHUR/web-GuessingGame/assets/59892368/5c8cd99d-5d6b-4e37-990e-b77ed86a3b66)|
+<div>
+   
+<img  alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/263471748-5c8cd99d-5d6b-4e37-990e-b77ed86a3b66.png" />
+   
+<img  alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/263471746-fda2e50f-821d-4cce-a33e-6be07ce76728.png" />
 
-|              Play Game                                            |
-| :-------------------------------------------------------------------: |
-|  ![1-removebg-preview](https://github.com/DIGOARTHUR/web-GuessingGame/assets/59892368/fda2e50f-821d-4cce-a33e-6be07ce76728)|
+<div >
 
 
 
@@ -183,7 +183,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
      
 ### Estilização 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
-  * [`Recusos básicos`](https://chakra-ui.com/docs/styled-system/style-props) (display (Flex e Grid), flex-direction, height, width, border-radius... )
+  * [`Recursos básicos`](https://chakra-ui.com/docs/styled-system/style-props) (display (Flex e Grid), flex-direction, height, width, border-radius... )
 
   
 ### Linguagem de Marcação
