@@ -120,7 +120,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  
 About application
 
-> Guessing Game is a guessing game. Choose a card from the 21 shown on the screen and in 3 rounds your letter will be sent via WhatsApp.
+> Guessing Game is a magic game with deck of cards. Choose a card from the 21 shown on the screen and in 3 rounds your letter will be sent via WhatsApp.
 > Play with friends and family.
   
  <!-------------------------------------------------------------------->
