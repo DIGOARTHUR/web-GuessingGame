@@ -118,7 +118,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
    
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação 
 
-> Guessing Game é um jogo de adivinhação. Escolha uma carta dentre as 21 mostradas na tela e em 3 rodadas a sua carta será enviada por whatsapp.
+> Guessing Game é um jogo de mágica com cartas de baralho. Escolha uma carta dentre as 21 mostradas na tela e em 3 rodadas a sua carta será enviada por whatsapp.
 > Brinque com amigos e familiares.
   
  <!-------------------------------------------------------------------->
