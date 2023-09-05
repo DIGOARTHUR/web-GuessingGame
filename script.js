@@ -72,7 +72,8 @@ $refreshButton.style.display = 'none'
 
 
 const shuffleCards_Sound = new Audio();
-shuffleCards_Sound.src = './assets/sound/track-sound-of-shuffling-playing-cards.mp3'
+shuffleCards_Sound.src = './assets/sound/track-sound-of-shuffling-playing-cards.mp3 '
+
 
 startRandomCards(deckCard)
 
@@ -97,7 +98,6 @@ function toPutCardsOnTheTable(deckCard) {
 
             switch (toggleColumn) {
                 case 1:
-                    console.log(toggleColumn)
                     $leftColumn.innerHTML += `<img class='imgCard' style="position: absolute; top:${positionTop}px" src="${deckCard[countCards]}"/>`
 
                     toggleColumn += 1;
@@ -169,16 +169,12 @@ function shuffleCards(column) {
 
     if (countShuffle < 3) {
 
-        console.log(countShuffle)
         deckCard = newDeckCard
         clearTable();
-
-
         toPutCardsOnTheTable(deckCard);
 
     } else {
         deckCard = newDeckCard
-        console.log(countShuffle)
         clearTable();
         result();
     }

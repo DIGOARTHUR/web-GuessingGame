@@ -39,3 +39,7 @@
     font-weight: 700;
     line-height: normal;
 }
+
+.qrcode_url{
+    height: 250px;
+}
