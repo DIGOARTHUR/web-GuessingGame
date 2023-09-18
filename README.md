@@ -42,9 +42,12 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <!-------------------------------------- 280 x 1400 ------------------------------>
 
 
+
+
+
 <p align="center">
 
-   <img  height="150" alt="guessingGame" title="guessingGame" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257309670-873637f7-9191-43f4-b7d3-d5f8a2842342.svg" />
+   <img  height="150" alt="guessingGame" title="guessingGame" src="https://github.com/DIGOARTHUR/web-GuessingGame/assets/59892368/67a0bbf3-fc6c-4968-a711-273b70bae6f4" />
   <br>
   <i>Surprise your friends and family by guessing the card they are thinking of in just 3 rounds.
 
